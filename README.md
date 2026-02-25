@@ -3,7 +3,6 @@
 This project explores airline passenger satisfaction using an open Kaggle dataset of 120K+ survey responses from an anonymised airline. The goal is to think and act like a Technical Product Owner in an Analytics Centre of Excellence (ACoE): define KPIs, analyse drivers of satisfaction, and translate insights into a product backlog for data and analytics products.
 
 The work is structured as an end-to-end data product case study that could sit inside an airline’s analytics platform or ACoE, similar to Emirates Group’s Analytics Centre of Excellence.
-​
 
 ### 2. Business context
 Airlines rely on data to understand why passengers are satisfied or dissatisfied and how operational factors like delays and service quality influence loyalty and revenue. A Technical Product Owner in an ACoE must:
@@ -11,7 +10,6 @@ Airlines rely on data to understand why passengers are satisfied or dissatisfied
 - Own data and information products that expose the right KPIs and insights to stakeholders.
 - Ensure data from transactional systems and surveys is usable, documented, and trustworthy.
 - Prioritise features, BAU improvements, NFRs, and technical debt in backlogs to improve customer experience and operational performance.
-​
 
 This project simulates that role using publicly available airline satisfaction data.
 
@@ -31,7 +29,6 @@ This project simulates that role using publicly available airline satisfaction d
 - Departure Delay in Minutes, Arrival Delay in Minutes: delay metrics.
 
 Note: The dataset is not included in this repo due to size/licensing; please download it directly from Kaggle and place it under data/raw/.
-​
 
 ### 4. Objectives
 From a Technical Product Owner (Data & Analytics) perspective, the project aims to:
@@ -40,7 +37,6 @@ From a Technical Product Owner (Data & Analytics) perspective, the project aims 
 3. Build a simple prediction model that classifies whether a passenger is likely to be satisfied, and interpret feature importance.
 4. Translate analytics into a product backlog for an internal analytics product (dashboards, data improvements, NFRs, and BAU items).
 5. Demonstrate how a Technical Product Owner can work with data to inform roadmap and prioritisation in an ACoE setting.
-​
 
 ### 5. Repository structure
 text
@@ -52,7 +48,7 @@ text
 │   └── 02_modeling_backlog.ipynb
 ├── data
 │   └── raw
-│       └── airline_passenger_satisfaction.csv  # (ignored in Git)
+│       └── airline_passenger_satisfaction.csv
 ├── src
 │   └── utils.py  # optional helpers
 └── requirements.txt
@@ -105,7 +101,6 @@ Main steps:
 
 ### 7. Product & backlog implications (TPO lens)
 This section ties analytics back to product management responsibilities similar to the Emirates Technical Product Owner – Platforms role.
-​
 
 #### 7.1 Example epics and user stories
 - Passenger communication & delay management
