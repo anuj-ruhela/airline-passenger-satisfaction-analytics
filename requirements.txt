@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine learning
+scikit-learn
+
+# Notebook environment
+jupyterlab
+ipykernel
+
+# Optional
+tqdm
