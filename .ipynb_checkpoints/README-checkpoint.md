@@ -143,6 +143,7 @@ This section ties analytics back to product management responsibilities similar 
 - Proposed artefacts for an ACoE-style data product:
   - KPI dictionary for satisfaction metrics.
   - Business metadata (entity definitions, relationships, KPI ownership) and user guides for analytics consumers, aligning with enterprise data and analytics guidelines.
+  - See sections 4–7 in 01_eda_kpis and 02_modeling_backlog for KPI definitions and backlog examples
 
 ### 8. How this maps to a Technical Product Owner role
 This project is designed to demonstrate:
